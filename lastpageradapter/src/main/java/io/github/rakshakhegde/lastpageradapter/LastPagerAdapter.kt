@@ -24,9 +24,11 @@ class LastPagerAdapter(private val modelId: Int) : PagerAdapter() {
 	}
 
 	@JvmOverloads
-	fun add(layoutId: Int, title: String? = null, model: Any? = null, width: Float = DEFAULT_WIDTH) = apply {
+	fun add(layoutId: Int, title: CharSequence? = null, model: Any? = null, width: Float = DEFAULT_WIDTH) = apply {
 		pagerItems.add(PagerItem(layoutId, model, title, width))
 	}
+
+	// TODO Overload title with String res Id instead of just CharSequence
 
 	fun remove(position: Int) {
 		pagerItems.removeAt(position)
@@ -39,23 +41,26 @@ class LastPagerAdapter(private val modelId: Int) : PagerAdapter() {
 
 	override fun getCount(): Int = pagerItems.size
 
-	override fun instantiateItem(container: ViewGroup, position: Int): Any {
-		val it = pagerItems[position]
+	override fun instantiateItem(container: ViewGroup, position: Int): PagerItem =
+			pagerItems[position].apply {
 
-		val view = layoutInflater.inflate(it.layoutId, container, false)
+				bindingRef?.get()?.apply {
+					container.addView(root)
+				} ?: apply {
+					val view = layoutInflater.inflate(layoutId, container, false)
 
-		val binding = DataBindingUtil.bind<ViewDataBinding>(view).apply {
-			setVariable(modelId, it.model)
-			executePendingBindings()
-		}
-		it.binding = SoftReference(binding)
+					val binding = DataBindingUtil.bind<ViewDataBinding>(view).apply {
+						setVariable(modelId, model)
+						executePendingBindings()
+					}
+					bindingRef(binding)
 
-		container.addView(view)
-		return it
-	}
+					container.addView(view)
+				}
+			}
 
 	override fun isViewFromObject(view: View, obj: Any): Boolean =
-			view == ((obj as PagerItem).binding.get()?.root as View)
+			view == ((obj as PagerItem).bindingRef?.get()?.root as View)
 
 	override fun getItemPosition(obj: Any?): Int {
 		val position = pagerItems.indexOf(obj as PagerItem)
@@ -64,7 +69,7 @@ class LastPagerAdapter(private val modelId: Int) : PagerAdapter() {
 
 	override fun destroyItem(container: ViewGroup, position: Int, obj: Any) {
 		val pagerItem = obj as PagerItem
-		val view = pagerItem.binding.get()?.root
+		val view = pagerItem.bindingRef?.get()?.root
 		container.removeView(view)
 	}
 

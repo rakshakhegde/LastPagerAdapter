@@ -18,7 +18,8 @@ class MainActivity : AppCompatActivity() {
 
 		adapter = viewpager.lastPagerAdapter(BR.model) {
 			add(layoutId = R.layout.one_layout, model = "ZEROV3", title = "zeroth")
-			add(R.layout.two_layout, title = "No Model")
+			for (i in 0..1000)
+				add(R.layout.two_layout, title = "No Model")
 		}
 	}
 
