@@ -27,7 +27,7 @@ viewpager.lastPagerAdapter(BR.model) {
 
 Library Concept inspired from SmartTabLayout's [Utils](https://github.com/ogaclejapan/SmartTabLayout/tree/master/utils-v4)
 
-Library Structure inspired from [LastAdapter](https://github.com/nitrico/LastAdapter)
+Library and API Structure inspired from [LastAdapter](https://github.com/nitrico/LastAdapter)
 
 ## Setup
 
