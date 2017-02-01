@@ -1,4 +1,4 @@
-[![Release](https://jitpack.io/v/LastPagerAdapter/LastPagerAdapter.svg)](https://jitpack.io/#rakshakhegde/LastPagerAdapter)
+[![Release](https://jitpack.io/v/rakshakhegde/LastPagerAdapter.svg)](https://jitpack.io/#rakshakhegde/LastPagerAdapter)
 
 **Don't write any PagerAdapter for ViewPager, ever again!**
 
