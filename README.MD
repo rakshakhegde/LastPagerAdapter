@@ -14,6 +14,8 @@
 
 #### Sweet and short library :kiss:
 
+[![Join the chat at https://gitter.im/LastPagerAdapter/Lobby](https://badges.gitter.im/LastPagerAdapter/Lobby.svg)](https://gitter.im/LastPagerAdapter/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ```java
 // Java
 new LastPagerAdapter(BR.model)
