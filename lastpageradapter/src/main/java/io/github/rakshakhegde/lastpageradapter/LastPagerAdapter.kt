@@ -41,7 +41,7 @@ class LastPagerAdapter(private val modelId: Int) : PagerAdapter() {
 
 	override fun getCount(): Int = pagerItems.size
 
-	override fun instantiateItem(container: ViewGroup, position: Int): PagerItem =
+	override fun instantiateItem(container: ViewGroup, position: Int): Any =
 			pagerItems[position].apply {
 
 				bindingRef?.get()?.apply {
