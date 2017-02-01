@@ -17,9 +17,41 @@ class MainActivity : AppCompatActivity() {
 		setContentView(R.layout.activity_main)
 
 		adapter = viewpager.lastPagerAdapter(BR.model) {
-			add(layoutId = R.layout.one_layout, model = "ONE", title = "First Layout")
+			add(layoutId = R.layout.one_layout, model = "one", title = "First Layout")
 			add(R.layout.two_layout, title = "Different Layout")
 			add(layoutId = R.layout.one_layout, model = "Last Index", title = "First Layout Again")
+		}
+	}
+
+	// Not used anywhere
+	fun apiUsage1() {
+		viewpager.lastPagerAdapter(BR.model) {
+			add(layoutId = R.layout.one_layout, model = "one", title = "First Layout")
+			add(R.layout.two_layout, title = "Different Layout")
+			add(layoutId = R.layout.one_layout, model = "Last Index", title = "First Layout Again")
+		}
+	}
+
+	// Not used anywhere
+	fun apiUsage2() {
+
+		LastPagerAdapter(BR.model)
+				.add(layoutId = R.layout.one_layout, model = "one", title = "First Layout")
+				.add(R.layout.two_layout, title = "Different Layout")
+				.add(layoutId = R.layout.one_layout, model = "Last Index", title = "First Layout Again")
+				.into(viewpager)
+	}
+
+	// Not used anywhere
+	fun apiUsage3() {
+
+		LastPagerAdapter(BR.model).apply {
+
+			add(layoutId = R.layout.one_layout, model = "one", title = "First Layout")
+			add(R.layout.two_layout, title = "Different Layout")
+			add(layoutId = R.layout.one_layout, model = "Last Index", title = "First Layout Again")
+
+			into(viewpager)
 		}
 	}
 
@@ -31,7 +63,7 @@ class MainActivity : AppCompatActivity() {
 	override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
 		R.id.add -> truthy {
 			val count = adapter.count
-			adapter.add(R.layout.one_layout, title = "$count", model = "$count")
+			adapter.add(R.layout.one_layout, title = "First Layout", model = "$count")
 		}
 		R.id.remove -> truthy {
 			if (adapter.count > 0)
@@ -43,31 +75,5 @@ class MainActivity : AppCompatActivity() {
 	inline fun truthy(f: () -> Unit) = let {
 		f()
 		true
-	}
-
-	fun apiUsage1() {
-		viewpager.lastPagerAdapter(BR.model) {
-			add(layoutId = R.layout.one_layout, model = "ZEROV3", title = "zeroth")
-			add(R.layout.two_layout, title = "No Model")
-		}
-	}
-
-	fun apiUsage2() {
-
-		LastPagerAdapter(BR.model)
-				.add(layoutId = R.layout.one_layout, model = "ZEROV3", title = "zeroth")
-				.add(R.layout.two_layout, title = "No Model")
-				.into(viewpager)
-	}
-
-	fun apiUsage3() {
-
-		LastPagerAdapter(BR.model).apply {
-
-			add(layoutId = R.layout.one_layout, model = "ZEROV3", title = "zeroth")
-			add(R.layout.two_layout, title = "No Model")
-
-			into(viewpager)
-		}
 	}
 }
