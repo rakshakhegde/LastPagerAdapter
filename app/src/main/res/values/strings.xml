@@ -1,0 +1,5 @@
+<resources>
+	<string name="app_name">LastPagerAdapter</string>
+	<string name="add">Add</string>
+	<string name="remove">Remove</string>
+</resources>
