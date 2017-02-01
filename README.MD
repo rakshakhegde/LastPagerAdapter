@@ -33,7 +33,7 @@ Library and API Structure inspired from [LastAdapter](https://github.com/nitrico
 
 ### Gradle
 
-Add it in your root build.gradle at the end of repositories:
+Add this in your root build.gradle at the end of repositories:
 ```gradle
 allprojects {
     repositories {
