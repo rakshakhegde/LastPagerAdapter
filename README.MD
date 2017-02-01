@@ -3,13 +3,14 @@
 * Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
 * Written in [**Kotlin**](https://kotlinlang.org/)
 * No need to write any PagerAdapter (FragmentPagerAdapter, etc.)
+* Doesn't rely on Fragments. [Reasons why](https://medium.com/square-corner-blog/advocating-against-android-fragments-81fd0b462c97#.k3lif924a)
 * No need to modify your model classes
 * Supports different view layouts
 * Very fast — no reflection
 * Super easy API
 * Minimum Android SDK: **9**
 
-#### Sweet and short library 💋 :kiss:
+#### Sweet and short library :kiss:
 
 ```java
 // Java
@@ -50,10 +51,10 @@ dependencies {
 
 Note:
 
-- Fragments are heavy. They have their own complex lifecycles which is a headache to manage. They should be avoided. Here are many more reasons why. - https://medium.com/square-corner-blog/advocating-against-android-fragments-81fd0b462c97#.k3lif924a
+* Fragments are heavy. They have their own complex lifecycles which is a headache to manage. They should be avoided. Here are the reasons from a **Square Engineer** why you should [avoid Fragments.](https://medium.com/square-corner-blog/advocating-against-android-fragments-81fd0b462c97#.k3lif924a)
 
 This project and this README is a work in progress. Please cooperate.
 
 Pull requests highly welcome ^_^
 
-Made with ❤️ in India
+Made with :heart: in India
