@@ -1,6 +1,15 @@
-Android ViewPager Helper to eliminate writing PagerAdapters and use just lightweight Views (instead of Fragments) with Data Binding.
+**Don't write any PagerAdapter for ViewPager, ever again!**
 
-#### Sweet and short library 💋
+* Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
+* Written in [**Kotlin**](https://kotlinlang.org/)
+* No need to write any PagerAdapter (FragmentPagerAdapter, etc.)
+* No need to modify your model classes
+* Supports different view layouts
+* Very fast — no reflection
+* Super easy API
+* Minimum Android SDK: **9**
+
+#### Sweet and short library 💋 :kiss:
 
 ```java
 // Java
@@ -38,15 +47,6 @@ dependencies {
     compile 'com.github.rakshakhegde:LastPagerAdapter:-SNAPSHOT'
 }
 ```
-
-* Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
-* Written in [**Kotlin**](http://kotlinlang.org)
-* No need to write the adapter
-* No need to modify your model classes
-* Supports different view layouts
-* Very fast — no reflection
-* Super easy API
-* Minimum Android SDK: **9**
 
 Note:
 
