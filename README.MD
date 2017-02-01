@@ -1,3 +1,5 @@
+[![Release](https://jitpack.io/v/LastPagerAdapter/LastPagerAdapter.svg)](https://jitpack.io/#rakshakhegde/LastPagerAdapter)
+
 **Don't write any PagerAdapter for ViewPager, ever again!**
 
 * Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
