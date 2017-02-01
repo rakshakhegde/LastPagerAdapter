@@ -50,7 +50,7 @@ dependencies {
 	testCompile 'junit:junit:4.12'
 	compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 	compile "org.jetbrains.anko:anko-sdk15:$ankoLibVersion"
-	kapt 'com.android.databinding:compiler:2.3.0-beta3'
+	kapt 'com.android.databinding:compiler:2.2.3'
 
 	compile project(':lastpageradapter')
 }
