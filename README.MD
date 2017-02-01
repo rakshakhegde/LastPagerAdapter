@@ -8,6 +8,7 @@ new LastPagerAdapter(BR.model)
 ```
 
 Library inspired from SmartTabLayout's Utils - https://github.com/ogaclejapan/SmartTabLayout
+
 Library Structure inspired from LastAdapter - https://github.com/nitrico/LastAdapter
 
 Note:
