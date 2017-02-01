@@ -62,8 +62,7 @@ class MainActivity : AppCompatActivity() {
 
 	override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
 		R.id.add -> truthy {
-			val count = adapter.count
-			adapter.add(R.layout.one_layout, title = "First Layout", model = "$count")
+			adapter.add(R.layout.one_layout, title = "First Layout", model = "${adapter.count}")
 		}
 		R.id.remove -> truthy {
 			if (adapter.count > 0)
