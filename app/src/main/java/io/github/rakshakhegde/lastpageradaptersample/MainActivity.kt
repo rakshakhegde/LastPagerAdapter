@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 		setContentView(R.layout.activity_main)
 
 		adapter = viewpager.lastPagerAdapter(BR.model) {
-			add(layoutId = R.layout.one_layout, model = "ZEROV3", title = "First Layout")
+			add(layoutId = R.layout.one_layout, model = "ONE", title = "First Layout")
 			add(R.layout.two_layout, title = "Different Layout")
 			add(layoutId = R.layout.one_layout, model = "Last Index", title = "First Layout Again")
 		}
