@@ -62,4 +62,6 @@ This project and this README is a work in progress. Please cooperate.
 
 Pull requests highly welcome ^_^
 
+:kiss: Keep It Simple Silly
+
 Made with :heart: in India
