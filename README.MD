@@ -30,10 +30,6 @@ viewpager.lastPagerAdapter(BR.model) {
 }
 ```
 
-Library Concept inspired from SmartTabLayout's [Utils](https://github.com/ogaclejapan/SmartTabLayout/tree/master/utils-v4)
-
-Library and API Structure inspired from [LastAdapter](https://github.com/nitrico/LastAdapter)
-
 ## Setup
 
 ### Gradle
@@ -54,13 +50,26 @@ dependencies {
 }
 ```
 
-Note:
+## Note
 
 * Fragments are heavy. They have their own complex lifecycles which is a headache to manage. They should be avoided. Here are the reasons from a **Square Engineer** why you should [avoid Fragments.](https://medium.com/square-corner-blog/advocating-against-android-fragments-81fd0b462c97#.k3lif924a)
 
 This project and this README is a work in progress. Please cooperate.
 
-Pull requests highly welcome ^_^
+## Attributions
+Library Concept inspired from SmartTabLayout's [Utils](https://github.com/ogaclejapan/SmartTabLayout/tree/master/utils-v4)
+
+Library and API Structure inspired from [LastAdapter](https://github.com/nitrico/LastAdapter)
+
+## Contact me
+TODO
+
+## LICENSE
+TODO TODOOOO
+
+<hr/>
+
+Pull requests highly welcome
 
 :kiss: Keep It Simple Silly
 
