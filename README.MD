@@ -50,7 +50,7 @@ allprojects {
 Step 2. Add the dependency
 ```gradle
 dependencies {
-    compile 'com.github.rakshakhegde:LastPagerAdapter:-SNAPSHOT'
+    compile 'com.github.rakshakhegde:LastPagerAdapter:v0.1-alpha'
 }
 ```
 
