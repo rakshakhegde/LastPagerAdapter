@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
 
-	<TextView
+	<data>
+
+		<variable
+			name="model"
+			type="io.github.rakshakhegde.lastpageradaptersample.SignInModel"/>
+	</data>
+
+	<LinearLayout
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		android:gravity="center_horizontal"
-		android:text="two"
-		android:textSize="32sp"/>
+		android:orientation="vertical">
+
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="16dp"
+			android:hint="@string/email"
+			android:inputType="textEmailAddress"
+			android:text="@={model.email}"/>
+
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="16dp"
+			android:hint="@string/password"
+			android:inputType="textPassword"
+			android:text="@={model.password}"/>
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="16dp"
+			android:onClick="@{() -> model.signIn()}"
+			android:text="@string/sign_in"/>
+	</LinearLayout>
 </layout>

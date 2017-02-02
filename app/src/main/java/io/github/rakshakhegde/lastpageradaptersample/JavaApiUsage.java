@@ -3,13 +3,13 @@ package io.github.rakshakhegde.lastpageradaptersample;
 import android.support.v4.view.ViewPager;
 
 import io.github.rakshakhegde.lastpageradapter.LastPagerAdapter;
-import io.github.rakshakhegde.lastpageradapter.LastPagerAdapterExtensionsKt;
 
 /**
  * Created by rakshakhegde on 01/02/17.
  */
 
-public class DemoJavaUsage {
+/* Not used anywhere */
+public class JavaApiUsage {
 	ViewPager viewPager;
 
 	public void apiUsage1() {

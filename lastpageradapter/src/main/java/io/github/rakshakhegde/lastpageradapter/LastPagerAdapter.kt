@@ -9,7 +9,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import io.github.rakshakhegde.lastpageradapter.util.observables.onListChanged
-import java.lang.ref.SoftReference
 
 /**
  * Created by rakshakhegde on 01/02/17.
@@ -24,7 +23,8 @@ class LastPagerAdapter(private val modelId: Int) : PagerAdapter() {
 	}
 
 	@JvmOverloads
-	fun add(layoutId: Int, title: CharSequence? = null, model: Any? = null, width: Float = DEFAULT_WIDTH) = apply {
+	fun add(layoutId: Int, title: CharSequence? = null, model: Any? = null,
+	        width: Float = DEFAULT_WIDTH) = apply {
 		pagerItems.add(PagerItem(layoutId, model, title, width))
 	}
 
