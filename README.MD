@@ -1,10 +1,31 @@
-# LastPagerAdapter
+# LastPagerAdapter :rocket:
 
 [![Release](https://jitpack.io/v/rakshakhegde/LastPagerAdapter.svg)](https://jitpack.io/#rakshakhegde/LastPagerAdapter)
 [![Join the chat at https://gitter.im/LastPagerAdapter/Lobby](https://badges.gitter.im/LastPagerAdapter/Lobby.svg)](https://gitter.im/LastPagerAdapter/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-**Don't write any PagerAdapter for ViewPager, ever again!**
+**Ditch those long ViewPager Adapters you hate writing!**
 
+Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
+
+#### Sweet and short library :kiss:
+
+```java
+// Java
+new LastPagerAdapter(BR.model)
+    .add(R.layout.layout_one, "Title One", modelObject1)
+    .add(R.layout.layout_two, "Title Two", modelObject2)
+    .into(viewPager);
+```
+```kotlin
+// Kotlin
+viewpager.lastPagerAdapter(BR.model) {
+    add(R.layout.layout_one, "Title One", modelObject1)
+    add(R.layout.layout_two, "Title Two", modelObject2)
+}
+```
+
+
+## Features
 * Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
 * Written in [**Kotlin**](https://kotlinlang.org/)
 * No need to write any PagerAdapter (FragmentPagerAdapter, etc.)
@@ -15,24 +36,7 @@
 * Super easy API
 * Minimum Android SDK: **9**
 
-#### Sweet and short library :kiss:
-
-```java
-// Java
-new LastPagerAdapter(BR.model)
-    .add(R.layout.one_layout, "title", modelObject)
-    .into(viewPager);
-```
-```kotlin
-// Kotlin
-viewpager.lastPagerAdapter(BR.model) {
-    add(R.layout.one_layout, "title", modelObject)
-}
-```
-
-## Setup
-
-### Gradle
+## Build
 
 Add this in your root build.gradle at the end of repositories:
 ```gradle
@@ -45,27 +49,60 @@ allprojects {
 ```
 Step 2. Add the dependency
 ```gradle
+// apply plugin: 'kotlin-kapt'  // this line only for Kotlin projects
+
 dependencies {
     compile 'com.github.rakshakhegde:LastPagerAdapter:v0.1-alpha'
+
+    // kapt 'com.android.databinding:compiler:GRADLE_PLUGIN_VERSION' // this line only for Kotlin projects
 }
 ```
 
-## Note
+## How to use
 
-* Fragments are heavy. They have their own complex lifecycles which is a headache to manage. They should be avoided. Here are the reasons from a **Square Engineer** why you should [avoid Fragments.](https://medium.com/square-corner-blog/advocating-against-android-fragments-81fd0b462c97#.k3lif924a)
+Create your View layouts with `<layout>` as root:
 
-This project and this README is a work in progress. Please cooperate.
+```xml
+<layout xmlns:android="http://schemas.android.com/apk/res/android" >
 
-## Attributions
-Library Concept inspired from SmartTabLayout's [Utils](https://github.com/ogaclejapan/SmartTabLayout/tree/master/utils-v4)
+    <data>
+        <variable name="model" type="io.github.rakshakhegde.lastpageradaptersample.TextModel" />
+    </data>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@{model.text}" />
+
+</layout>
+```
+
+**It is important for all the item types to have the same variable name**, in this case "model".
+This name is passed to the adapter builder as BR.variableName, in this case BR.model:
+
+```java
+// Java
+new LastPagerAdapter(BR.model)
+    .add(R.layout.text_layout, "Layout Title", textModelObject)
+    .into(viewPager); // don't forget this line
+```
+```kotlin
+// Kotlin
+viewpager.lastPagerAdapter(BR.model) {
+    add(R.layout.text_layout, "Layout Title", textModelObject)
+}
+```
+
+## Acknowledgements
 
 Library and API Structure inspired from [LastAdapter](https://github.com/nitrico/LastAdapter)
 
-## Contact me
-TODO
+Library Concept inspired from SmartTabLayout's [Utils](https://github.com/ogaclejapan/SmartTabLayout/tree/master/utils-v4)
 
-## LICENSE
-TODO TODOOOO
+## Author
+**Rakshak Hegde**
+
+[Email](mailto:rakshakhegde@gmail.com) | [Twitter](https://twitter.com/rakshakhegde) | [Facebook](https://www.facebook.com/rakshakhegde) | [Google+](https://plus.google.com/+RakshakHegde) | [Linked.in](https://in.linkedin.com/in/rakshakrhegde)
 
 <hr/>
 
@@ -74,3 +111,21 @@ Pull requests highly welcome
 :kiss: Keep It Simple Silly
 
 Made with :heart: in India
+
+
+## License
+```txt
+Copyright 2016 Rakshak Hegde
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
