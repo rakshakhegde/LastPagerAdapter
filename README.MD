@@ -3,7 +3,7 @@
 [![Release](https://jitpack.io/v/rakshakhegde/LastPagerAdapter.svg)](https://jitpack.io/#rakshakhegde/LastPagerAdapter)
 [![Join the chat at https://gitter.im/LastPagerAdapter/Lobby](https://badges.gitter.im/LastPagerAdapter/Lobby.svg)](https://gitter.im/LastPagerAdapter/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-**Ditch those long ViewPager Adapters you hate writing!**
+**Write ViewPager Adapter easily!**
 
 Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
 
@@ -24,18 +24,18 @@ viewpager.lastPagerAdapter(BR.model) {
 }
 ```
 
-
-## Features
-* Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
-* Written in [**Kotlin**](https://kotlinlang.org/)
-* No need to write any PagerAdapter (FragmentPagerAdapter, etc.)
-* Doesn't rely on Fragments. [Reasons why](https://medium.com/square-corner-blog/advocating-against-android-fragments-81fd0b462c97#.k3lif924a)
-* No need to modify your model classes
-* Supports different view layouts
-* Super easy API
-* Helpful error stacktraces
-* Very fast — no reflection
-* Minimum Android SDK: **9**
+              |  LastPagerAdapter
+--------------------------|------------------------------------------------------------
+:monorail: | Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
+:sparkles: | Written in [**Kotlin**](https://kotlinlang.org/)
+:pencil2: | No need to write any PagerAdapter (FragmentPagerAdapter, etc.)
+⾹ |  Doesn't rely on Fragments. [Reasons why](https://medium.com/square-corner-blog/advocating-against-android-fragments-81fd0b462c97#.k3lif924a)
+:x: | No need to modify your model classes
+:page_with_curl: | Supports different view layouts
+:ok_hand: | Super easy API
+:memo: | Helpful error stacktraces
+:rocket: | Very fast — no reflection
+:iphone: | Minimum Android SDK: **9**
 
 ## Build
 
@@ -48,7 +48,7 @@ allprojects {
     }
 }
 ```
-Step 2. Add the dependency
+Step 2. Add the dependency in your module's gradle file
 ```gradle
 // apply plugin: 'kotlin-kapt'  // this line only for Kotlin projects
 
@@ -113,7 +113,7 @@ Library Concept inspired from SmartTabLayout's [Utils](https://github.com/ogacle
 
 Please suggest improvements and feel free to contribute.
 
-:kiss: Keep It Simple Silly
+:kiss: **K**eep **I**t **S**imple **S**illy
 
 
 ## License
