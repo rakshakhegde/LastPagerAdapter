@@ -53,7 +53,7 @@ Or try the limited 1 min [live app demo](https://appetize.io/app/uqjemedvam0h8k8
 --------------------------|------------------------------------------------------------
 :monorail: | Within a few lines easily hook up your data models with your ViewPager
 :link: | Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
-:sparkles: | Written in [**Kotlin**](https://kotlinlang.org/). A conscise language you should definitely check out, if you haven't already.
+:sparkles: | Written in [**Kotlin**](https://kotlinlang.org/). A concise language you should definitely check out, if you haven't already.
 :pencil2: | No need to write any PagerAdapter (FragmentPagerAdapter, etc.)
 ⾹ |  Doesn't rely on Fragments. It has complex lifecycle and best be avoided. [More reasons why](https://medium.com/square-corner-blog/advocating-against-android-fragments-81fd0b462c97#.k3lif924a)
 :x: | No need to modify your existing model classes
