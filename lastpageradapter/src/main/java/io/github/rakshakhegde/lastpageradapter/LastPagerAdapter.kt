@@ -28,7 +28,7 @@ class LastPagerAdapter(private val modelId: Int) : PagerAdapter() {
 		pagerItems.add(PagerItem(layoutId, model, title, width))
 	}
 
-	// TODO Overload title with String res Id instead of just CharSequence
+	// TODO Unable to overload title with String res Id instead of just CharSequence
 
 	fun remove(position: Int) {
 		pagerItems.removeAt(position)
@@ -65,7 +65,7 @@ class LastPagerAdapter(private val modelId: Int) : PagerAdapter() {
 	private fun checkLayoutInflaterIsNotNull() {
 		if (layoutInflater == null)
 			throw IllegalStateException(
-					"LayoutInflater not initialized! Please pass ViewPager instance using into()."
+					"LayoutInflater is not initialized! Please pass ViewPager instance using into()."
 			)
 	}
 

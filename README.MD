@@ -52,9 +52,13 @@ Step 2. Add the dependency
 ```gradle
 // apply plugin: 'kotlin-kapt'  // this line only for Kotlin projects
 
-dependencies {
-    compile 'com.github.rakshakhegde:LastPagerAdapter:v0.1-alpha'
+android {
+    ...
+    dataBinding.enabled true
+}
 
+dependencies {
+    compile 'com.github.rakshakhegde:LastPagerAdapter:1.0.0'
     // kapt 'com.android.databinding:compiler:GRADLE_PLUGIN_VERSION' // this line only for Kotlin projects
 }
 ```
@@ -107,11 +111,9 @@ Library Concept inspired from SmartTabLayout's [Utils](https://github.com/ogacle
 
 <hr/>
 
-Pull requests highly welcome
+Please suggest improvements and feel free to contribute.
 
 :kiss: Keep It Simple Silly
-
-Made with :heart: in India
 
 
 ## License
