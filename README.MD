@@ -1,6 +1,8 @@
 <img alt="LastPagerAdapter Hero Banner" src="ART/lastpageradapter-hero.png"></img>
 
+
 # :rocket: LastPagerAdapter
+
 
 [![Release](https://jitpack.io/v/rakshakhegde/LastPagerAdapter.svg)](https://jitpack.io/#rakshakhegde/LastPagerAdapter)
 [![Join the chat at https://gitter.im/LastPagerAdapter/Lobby](https://badges.gitter.im/LastPagerAdapter/Lobby.svg)](https://gitter.im/LastPagerAdapter/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -8,6 +10,7 @@
 **Ditch those long ViewPager Adapters you hate writing! - Android Library**
 
 Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
+
 
 #### :kiss: Sweet and short library
 
@@ -31,14 +34,16 @@ Download the [demo apk](https://github.com/rakshakhegde/LastPagerAdapter/raw/mas
 
 <img alt="Demo GIF" src="ART/lastpageradapter-demo.gif" width=250></img>
 
+
 ## :scroll: Contents
 - [Features](#crown-features)
 - [Build](#classical_building-build)
 - [How to use](#thinking-how-to-use)
 - [Acknowledgements](#sparkles-acknowledgements)
-- [Author](#man_cartwheeling-author)
+- [Author](#man_cartwheeling-cartwheeling-guy-who-made-this)
 - [License](#memo-license)
 
+<hr/>
 
 ## :crown: Features
          |  LastPagerAdapter
@@ -54,6 +59,7 @@ Download the [demo apk](https://github.com/rakshakhegde/LastPagerAdapter/raw/mas
 :memo: | Helpful error stacktraces
 :rocket: | Very fast — no reflection
 :iphone: | Minimum Android SDK: **Gingerbread API 9**
+
 
 ## :classical_building: Build
 
@@ -81,6 +87,7 @@ dependencies {
 }
 ```
 
+
 ## :thinking: How to use
 
 Create your View layouts with `<layout>` as root:
@@ -100,7 +107,7 @@ Create your View layouts with `<layout>` as root:
 </layout>
 ```
 
-**It is important for all the item types to have the same variable name**, in this case "model".
+**It is important for all the model types to have the same variable name**, in this case "model".
 This name is passed to the adapter builder as BR.variableName, in this case BR.model:
 
 ```java
@@ -117,6 +124,8 @@ viewpager.lastPagerAdapter(BR.model) {
 ```
 And that is how easy it is. Download the [demo apk](https://github.com/rakshakhegde/LastPagerAdapter/raw/master/demo.apk) to play around with the LastPagerAdapter demo app.
 
+
+
 ## :sparkles: Acknowledgements
 
 Library and API Structure inspired from [LastAdapter](https://github.com/nitrico/LastAdapter)
@@ -125,14 +134,18 @@ Library Concept inspired from SmartTabLayout's [Utils](https://github.com/ogacle
 
 Logo and Hero Banner created by Govindaraj Karthikeyan. Check him out on [Bēhance](http://www.behance.net/govindux)
 
-## :man_cartwheeling: Author
-**Rakshak Hegde**
+Core Logo created using Roman Nurik's awesome [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/)
+
+
+
+## :man_cartwheeling: Cartwheeling guy who made this
+**Rakshak Hegde** tweets rampantly (I wish) at [**@rakshakhegde**](https://twitter.com/rakshakhegde)
 
 [Email](mailto:rakshakhegde@gmail.com) | [Twitter](https://twitter.com/rakshakhegde) | [Facebook](https://www.facebook.com/rakshakhegde) | [Google+](https://plus.google.com/+RakshakHegde) | [Linked.in](https://in.linkedin.com/in/rakshakrhegde)
 
 <hr/>
 
-Please suggest improvements and feel free to contribute.
+Please suggest improvements and feel free to contribute :fork_and_knife:
 
 :kiss: **K**eep **I**t **S**imple **S**illy
 
@@ -153,3 +166,5 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
+
+*At this point I hope you're not emoji nauseated. If you are, just hit that :star: Star button to stop me from using emojis. Support this project please :grin:*
