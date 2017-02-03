@@ -31,9 +31,9 @@ viewpager.lastPagerAdapter(BR.model) {
 :sparkles: | Written in [**Kotlin**](https://kotlinlang.org/)
 :pencil2: | No need to write any PagerAdapter (FragmentPagerAdapter, etc.)
 ⾹ |  Doesn't rely on Fragments. It has complex lifecycle and best be avoided. [More reasons why](https://medium.com/square-corner-blog/advocating-against-android-fragments-81fd0b462c97#.k3lif924a)
-:x: | No need to modify your model classes
-:page_with_curl: | Supports different view layouts
-:ok_hand: | Super easy API
+:x: | No need to modify your existing model classes
+:page_with_curl: | Supports different View layouts and hooking it up with ViewPager is a breeze
+:ok_hand: | Super easy API. Concise syntax. Less Bugs for you to worry about. Boosted Productivity.
 :memo: | Helpful error stacktraces
 :rocket: | Very fast — no reflection
 :iphone: | Minimum Android SDK: **9**
