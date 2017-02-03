@@ -9,6 +9,8 @@ Based on [**Android Data Binding**](https://developer.android.com/topic/librarie
 
 #### :kiss: Sweet and short library
 
+Use the language of your choice.
+
 ```java
 // Java
 new LastPagerAdapter(BR.model)
