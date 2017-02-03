@@ -137,7 +137,7 @@ Library Concept inspired from SmartTabLayout's [Utils](https://github.com/ogacle
 
 Logo and Hero Banner created by Govindaraj Karthikeyan. Check him out on [Bēhance](http://www.behance.net/govindux)
 
-Core Logo created using Roman Nurik's awesome [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/)
+Core Logo created using Roman Nurik's awesome [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/) :fire::fire::fire:
 
 
 
