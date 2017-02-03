@@ -117,7 +117,7 @@ Please suggest improvements and feel free to contribute.
 :kiss: **K**eep **I**t **S**imple **S**illy
 
 
-## License
+## :memo: License
 ```txt
 Copyright 2016 Rakshak Hegde
 
