@@ -32,7 +32,7 @@ viewpager.lastPagerAdapter(BR.model) {
 ```
 Download the [demo apk](https://github.com/rakshakhegde/LastPagerAdapter/raw/master/demo.apk) to play around with the LastPagerAdapter demo app.
 
-<img alt="Demo GIF" src="ART/lastpageradapter-demo.gif" width=250></img>
+<img alt="Demo GIF" src="ART/lastpageradapter-demo.gif" width=250 align="center"></img>
 
 
 ## :scroll: Contents
