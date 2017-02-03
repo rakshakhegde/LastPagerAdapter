@@ -143,11 +143,11 @@ Core Logo created using Roman Nurik's awesome [Android Asset Studio](https://rom
 
 [Email](mailto:rakshakhegde@gmail.com) | [Twitter](https://twitter.com/rakshakhegde) | [Facebook](https://www.facebook.com/rakshakhegde) | [Google+](https://plus.google.com/+RakshakHegde) | [Linked.in](https://in.linkedin.com/in/rakshakrhegde)
 
-<hr/>
+## Contribute
 
 Please suggest improvements and feel free to contribute :fork_and_knife:
 
-:kiss: **K**eep **I**t **S**imple **S**illy
+> :kiss: **K**eep **I**t **S**imple **S**illy
 
 
 ## :memo: License
@@ -167,4 +167,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-*At this point I hope you're not emoji nauseated. If you are, just hit that :star: Star button to stop me from using emojis. Support this project please :grin:*
+*At this point I hope you're not emoji nauseated. If you are, just hit that* :star: *Star button to stop me from using emojis.
+<br/>
+Support this project please* :grin:
