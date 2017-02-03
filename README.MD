@@ -25,9 +25,9 @@ viewpager.lastPagerAdapter(BR.model) {
     add(R.layout.layout_two, "Title Two", modelObject2)
 }
 ```
-Download the [demo apk](demo.apk) to play around with the LastPagerAdapter demo app.
+Download the [demo apk](https://github.com/rakshakhegde/LastPagerAdapter/raw/master/demo.apk) to play around with the LastPagerAdapter demo app.
 
-<img src="art/lastpageradapter-demo.gif"></img>
+<img src="ART/lastpageradapter-demo.gif"></img>
 
          |  LastPagerAdapter
 --------------------------|------------------------------------------------------------
@@ -103,7 +103,7 @@ viewpager.lastPagerAdapter(BR.model) {
     add(R.layout.text_layout, "Layout Title", textModelObject)
 }
 ```
-And that is how easy it is. Download the [demo apk](demo.apk) to play around with the LastPagerAdapter demo app.
+And that is how easy it is. Download the [demo apk](https://github.com/rakshakhegde/LastPagerAdapter/raw/master/demo.apk) to play around with the LastPagerAdapter demo app.
 
 ## :sparkles: Acknowledgements
 
