@@ -14,20 +14,20 @@ Use the language of your choice.
 ```java
 // Java
 new LastPagerAdapter(BR.model)
-    .add(R.layout.layout_one, "Title One", modelObject1)
-    .add(R.layout.layout_two, "Title Two", modelObject2)
+    .add(R.layout.layout_one, "First Layout Title", modelObject1)
+    .add(R.layout.layout_two, "Second Layout Title", modelObject2)
     .into(viewPager);
 ```
 ```kotlin
 // Kotlin
 viewpager.lastPagerAdapter(BR.model) {
-    add(R.layout.layout_one, "Title One", modelObject1)
-    add(R.layout.layout_two, "Title Two", modelObject2)
+    add(R.layout.layout_one, "First Layout Title", modelObject1)
+    add(R.layout.layout_two, "Second Layout Title", modelObject2)
 }
 ```
 Download the [demo apk](https://github.com/rakshakhegde/LastPagerAdapter/raw/master/demo.apk) to play around with the LastPagerAdapter demo app.
 
-<img src="ART/lastpageradapter-demo.gif" width=250></img>
+<img alt="Demo GIF" src="ART/lastpageradapter-demo.gif" width=250></img>
 
          |  LastPagerAdapter
 --------------------------|------------------------------------------------------------
