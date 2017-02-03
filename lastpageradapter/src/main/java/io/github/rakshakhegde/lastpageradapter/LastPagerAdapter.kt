@@ -16,7 +16,7 @@ import io.github.rakshakhegde.lastpageradapter.util.observables.onListChanged
 class LastPagerAdapter(private val modelId: Int) : PagerAdapter() {
 
 	private val pagerItems = ObservableArrayList<PagerItem>()
-	private lateinit var layoutInflater: LayoutInflater
+	private var layoutInflater: LayoutInflater? = null
 
 	init {
 		pagerItems.onListChanged { notifyDataSetChanged() }
@@ -47,7 +47,10 @@ class LastPagerAdapter(private val modelId: Int) : PagerAdapter() {
 				bindingRef?.get()?.apply {
 					container.addView(root)
 				} ?: apply {
-					val view = layoutInflater.inflate(layoutId, container, false)
+
+					checkLayoutInflaterIsNotNull()
+
+					val view = layoutInflater?.inflate(layoutId, container, false)
 
 					val binding = DataBindingUtil.bind<ViewDataBinding>(view).apply {
 						setVariable(modelId, model)
@@ -58,6 +61,13 @@ class LastPagerAdapter(private val modelId: Int) : PagerAdapter() {
 					container.addView(view)
 				}
 			}
+
+	private fun checkLayoutInflaterIsNotNull() {
+		if (layoutInflater == null)
+			throw IllegalStateException(
+					"LayoutInflater not initialized! Please pass ViewPager instance using into()."
+			)
+	}
 
 	override fun isViewFromObject(view: View, obj: Any): Boolean =
 			view == ((obj as PagerItem).bindingRef?.get()?.root as View)

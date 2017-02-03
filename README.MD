@@ -32,8 +32,9 @@ viewpager.lastPagerAdapter(BR.model) {
 * Doesn't rely on Fragments. [Reasons why](https://medium.com/square-corner-blog/advocating-against-android-fragments-81fd0b462c97#.k3lif924a)
 * No need to modify your model classes
 * Supports different view layouts
-* Very fast — no reflection
 * Super easy API
+* Helpful error stacktraces
+* Very fast — no reflection
 * Minimum Android SDK: **9**
 
 ## Build
