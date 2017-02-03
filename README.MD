@@ -31,6 +31,16 @@ Download the [demo apk](https://github.com/rakshakhegde/LastPagerAdapter/raw/mas
 
 <img alt="Demo GIF" src="ART/lastpageradapter-demo.gif" width=250></img>
 
+## :scroll: Contents
+- [Features](#crown-features)
+- [Build](#classical_building-build)
+- [How to use](#thinking-how-to-use)
+- [Acknowledgements](#sparkles-acknowledgements)
+- [Author](#man_cartwheeling-author)
+- [License](#memo-license)
+
+
+## :crown: Features
          |  LastPagerAdapter
 --------------------------|------------------------------------------------------------
 :monorail: | Within a few lines easily hook up your data models with your ViewPager
@@ -112,6 +122,8 @@ And that is how easy it is. Download the [demo apk](https://github.com/rakshakhe
 Library and API Structure inspired from [LastAdapter](https://github.com/nitrico/LastAdapter)
 
 Library Concept inspired from SmartTabLayout's [Utils](https://github.com/ogaclejapan/SmartTabLayout/tree/master/utils-v4)
+
+Logo and Hero Banner created by Govindaraj Karthikeyan. Check him out on [Bēhance](http://www.behance.net/govindux)
 
 ## :man_cartwheeling: Author
 **Rakshak Hegde**
