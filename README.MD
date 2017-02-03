@@ -25,6 +25,9 @@ viewpager.lastPagerAdapter(BR.model) {
     add(R.layout.layout_two, "Title Two", modelObject2)
 }
 ```
+Download the [demo apk](demo.apk) to play around with the LastPagerAdapter demo app.
+
+<img src="art/lastpageradapter-demo.gif"></img>
 
          |  LastPagerAdapter
 --------------------------|------------------------------------------------------------
@@ -38,7 +41,7 @@ viewpager.lastPagerAdapter(BR.model) {
 :ok_hand: | Super easy API. Concise syntax. Less Bugs for you to worry about. Boosted Productivity.
 :memo: | Helpful error stacktraces
 :rocket: | Very fast — no reflection
-:iphone: | Minimum Android SDK: **9**
+:iphone: | Minimum Android SDK: **Gingerbread API 9**
 
 ## :classical_building: Build
 
@@ -100,6 +103,7 @@ viewpager.lastPagerAdapter(BR.model) {
     add(R.layout.text_layout, "Layout Title", textModelObject)
 }
 ```
+And that is how easy it is. Download the [demo apk](demo.apk) to play around with the LastPagerAdapter demo app.
 
 ## :sparkles: Acknowledgements
 
