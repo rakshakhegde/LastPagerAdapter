@@ -24,9 +24,10 @@ viewpager.lastPagerAdapter(BR.model) {
 }
 ```
 
-              |  LastPagerAdapter
+         |  LastPagerAdapter
 --------------------------|------------------------------------------------------------
-:monorail: | Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
+:monorail: | Within a few lines easily hook up your data models with your ViewPager
+:link: | Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
 :sparkles: | Written in [**Kotlin**](https://kotlinlang.org/)
 :pencil2: | No need to write any PagerAdapter (FragmentPagerAdapter, etc.)
 ⾹ |  Doesn't rely on Fragments. [Reasons why](https://medium.com/square-corner-blog/advocating-against-android-fragments-81fd0b462c97#.k3lif924a)
