@@ -1,3 +1,5 @@
+<img alt="LastPagerAdapter Hero Banner" src="ART/lastpageradapter-hero.png"></img>
+
 # :rocket: LastPagerAdapter
 
 [![Release](https://jitpack.io/v/rakshakhegde/LastPagerAdapter.svg)](https://jitpack.io/#rakshakhegde/LastPagerAdapter)
