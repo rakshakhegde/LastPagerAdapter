@@ -100,7 +100,7 @@ dependencies {
 
 <h2 align="center">:thinking: How to use</h2>
 
-`<layout>` as root for your View layouts is a must:
+`<layout>` as root for your View layouts is a **must**:
 
 ```xml
 <layout xmlns:android="http://schemas.android.com/apk/res/android" >
