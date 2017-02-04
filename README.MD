@@ -49,6 +49,7 @@ Or try the limited 1 min [live app demo](https://appetize.io/app/uqjemedvam0h8k8
 - [How to use](#thinking-how-to-use)
 - [Acknowledgements](#sparkles-acknowledgements)
 - [Author](#man_cartwheeling-cartwheeling-guy-who-made-this)
+- [Contribute](#fork_and_knife-contribute)
 - [License](#memo-license)
 
 <hr/>
