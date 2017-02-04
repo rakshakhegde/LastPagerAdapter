@@ -1,7 +1,7 @@
 [![Release](https://jitpack.io/v/rakshakhegde/LastPagerAdapter.svg)](https://jitpack.io/#rakshakhegde/LastPagerAdapter)
 [![Join the chat at https://gitter.im/LastPagerAdapter/Lobby](https://badges.gitter.im/LastPagerAdapter/Lobby.svg)](https://gitter.im/LastPagerAdapter/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![dependencies](https://img.shields.io/badge/dependencies-up--to--date-brightgreen.svg)](#rocket-lastpageradapter)
-[![build](https://img.shields.io/badge/build-passing-brightgreen.svg)](#rocket-lastpageradapter)
+[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=5895d7a1e0b5980100192b42&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/5895d7a1e0b5980100192b42/build/latest?branch=master)
 [![android min api](https://img.shields.io/badge/android_min_api-v9-blue.svg)](#rocket-lastpageradapter)
 [![production ready](https://img.shields.io/badge/production-ready-brightgreen.svg)](#rocket-lastpageradapter)
 
