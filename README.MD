@@ -9,7 +9,7 @@
 <img alt="LastPagerAdapter Hero Banner" src="ART/lastpageradapter-hero.png"></img>
 
 
-# :rocket: LastPagerAdapter
+<h2 align="center">:rocket: LastPagerAdapter</h2>
 
 
 **:hushed: Unbelievably simple API for long, :scroll: boilerplate ViewPager Adapters!**
@@ -43,7 +43,7 @@ Download the [demo apk](https://github.com/rakshakhegde/LastPagerAdapter/raw/mas
 
 Or try the limited 1 min [live app demo](https://appetize.io/app/uqjemedvam0h8k8t4yt1vprtyr) at Appetize.
 
-## :scroll: Contents
+<h2 align="center">:scroll: Contents</h2>
 - [Features](#crown-features)
 - [Build](#classical_building-build)
 - [How to use](#thinking-how-to-use)
@@ -53,7 +53,8 @@ Or try the limited 1 min [live app demo](https://appetize.io/app/uqjemedvam0h8k8
 
 <hr/>
 
-## :crown: Features
+<h2 align="center">:crown: Features</h2>
+
          |  LastPagerAdapter
 --------------------------|------------------------------------------------------------
 :monorail: | Within a few lines easily hook up your data models with your ViewPager
@@ -69,7 +70,7 @@ Or try the limited 1 min [live app demo](https://appetize.io/app/uqjemedvam0h8k8
 :iphone: | Minimum Android SDK: **Gingerbread API 9**
 
 
-## :classical_building: Build
+<h2 align="center">:classical_building: Build</h2>
 
 Add this in your root build.gradle at the end of repositories:
 ```gradle
@@ -96,7 +97,7 @@ dependencies {
 ```
 
 
-## :thinking: How to use
+<h2 align="center">:thinking: How to use</h2>
 
 `<layout>` as root for your View layouts is a must:
 
@@ -136,7 +137,7 @@ And that is how easy it is. Download the [demo apk](https://github.com/rakshakhe
 
 
 
-## :sparkles: Acknowledgements
+<h2 align="center">:sparkles: Acknowledgements</h2>
 
 Library and API Structure inspired from [LastAdapter](https://github.com/nitrico/LastAdapter)
 
@@ -148,19 +149,20 @@ Core Logo created using Roman Nurik's awesome [Android Asset Studio](https://rom
 
 
 
-## :man_cartwheeling: Cartwheeling guy who made this
+<h2 align="center">:man_cartwheeling: Cartwheeling guy who made this</h2>
 **Rakshak Hegde** tweets rampantly (I wish :sweat_smile:) at [**@rakshakhegde**](https://twitter.com/rakshakhegde)
 
 [Email](mailto:rakshakhegde@gmail.com) | [Twitter](https://twitter.com/rakshakhegde) | [Facebook](https://www.facebook.com/rakshakhegde) | [Google+](https://plus.google.com/+RakshakHegde) | [Linked.in](https://in.linkedin.com/in/rakshakrhegde)
 
-## Contribute
+<h2 align="center">:fork_and_knife: Contribute</h2>
 
-Please suggest improvements and feel free to contribute :fork_and_knife:
+Please file bugs, suggest improvements and feel free to contribute
 
 > :kiss: **K**eep **I**t **S**imple **S**illy
 
 
-## :memo: License
+<h2 align="center">:memo: License</h2>
+
 ```txt
 Copyright 2016 Rakshak Hegde
 
