@@ -181,7 +181,7 @@ limitations under the License.
 ```
 
 *At this point I hope you're not emoji nauseated. If you are, just hit that*
-[![GitHub Stars](https://img.shields.io/github/stars/bevacqua/awesome-badges.svg?style=social&label=Star)](#)
+[![GitHub Stars](ART/badges/github-stars.svg)](#)
  *Star button to stop me from using emojis.
 <br/>
 Support this project please* :grin:
