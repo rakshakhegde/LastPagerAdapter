@@ -180,6 +180,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-*At this point I hope you're not emoji nauseated. If you are, just hit that* :star: *Star button to stop me from using emojis.
+*At this point I hope you're not emoji nauseated. If you are, just hit that*
+[![GitHub Stars](https://img.shields.io/github/stars/bevacqua/awesome-badges.svg?style=social&label=Star)](#)
+ *Star button to stop me from using emojis.
 <br/>
 Support this project please* :grin:
