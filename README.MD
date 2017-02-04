@@ -1,18 +1,23 @@
+[![Release](https://jitpack.io/v/rakshakhegde/LastPagerAdapter.svg)](https://jitpack.io/#rakshakhegde/LastPagerAdapter)
+[![Join the chat at https://gitter.im/LastPagerAdapter/Lobby](https://badges.gitter.im/LastPagerAdapter/Lobby.svg)](https://gitter.im/LastPagerAdapter/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![dependencies](https://img.shields.io/badge/dependencies-up--to--date-brightgreen.svg)]()
+[![build](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
+[![android min api](https://img.shields.io/badge/android_min_api-v9-blue.svg)]()
+[![production ready](https://img.shields.io/badge/production-ready-brightgreen.svg)]()
+
+
 <img alt="LastPagerAdapter Hero Banner" src="ART/lastpageradapter-hero.png"></img>
 
 
 # :rocket: LastPagerAdapter
 
 
-[![Release](https://jitpack.io/v/rakshakhegde/LastPagerAdapter.svg)](https://jitpack.io/#rakshakhegde/LastPagerAdapter)
-[![Join the chat at https://gitter.im/LastPagerAdapter/Lobby](https://badges.gitter.im/LastPagerAdapter/Lobby.svg)](https://gitter.im/LastPagerAdapter/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 **:hushed: Unbelievably simple API for long, :scroll: boilerplate ViewPager Adapters!**
 
 Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
 
 
-#### :kiss: Sweet and short library
+<h2 align="center">:kiss: Sweet and short library</h2>
 
 Use the language of your choice.
 
@@ -93,7 +98,7 @@ dependencies {
 
 ## :thinking: How to use
 
-Create your View layouts with `<layout>` as root:
+`<layout>` as root for your View layouts is a must:
 
 ```xml
 <layout xmlns:android="http://schemas.android.com/apk/res/android" >
@@ -111,20 +116,22 @@ Create your View layouts with `<layout>` as root:
 ```
 
 **It is important for all the model types to have the same variable name**, in this case "model".
-This name is passed to the adapter builder as BR.variableName, in this case BR.model:
+This name is passed to the adapter constructor as BR.variableName, in this case BR.model:
 
 ```java
 // Java
 new LastPagerAdapter(BR.model)
-    .add(R.layout.text_layout, "Layout Title", textModelObject)
+    .add(R.layout.text_layout, "Optional Layout Title", optionalTextModelObject, optionalWidth)
     .into(viewPager); // don't forget this line
 ```
 ```kotlin
 // Kotlin
 viewpager.lastPagerAdapter(BR.model) {
-    add(R.layout.text_layout, "Layout Title", textModelObject)
+    add(R.layout.text_layout, "Optional Layout Title", optionalTextModelObject, optionalWidth)
 }
 ```
+Except the layoutId, everything else is optional
+
 And that is how easy it is. Download the [demo apk](https://github.com/rakshakhegde/LastPagerAdapter/raw/master/demo.apk) to play around with the LastPagerAdapter demo app.
 
 

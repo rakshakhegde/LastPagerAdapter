@@ -6,7 +6,7 @@ import java.lang.ref.SoftReference
 /**
  * Created by rakshakhegde on 01/02/17.
  */
-internal class PagerItem(
+data class PagerItem(
 		val layoutId: Int,
 		val model: Any?,
 		val title: CharSequence?,
@@ -15,7 +15,7 @@ internal class PagerItem(
 	var bindingRef: SoftReference<ViewDataBinding?>? = null
 		private set
 
-	fun bindingRef(viewDataBinding: ViewDataBinding) {
+	internal fun bindingRef(viewDataBinding: ViewDataBinding) {
 		bindingRef = SoftReference(viewDataBinding)
 	}
 }
