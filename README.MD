@@ -4,6 +4,7 @@
 [![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=5895d7a1e0b5980100192b42&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/5895d7a1e0b5980100192b42/build/latest?branch=master)
 [![android min api](https://img.shields.io/badge/android_min_api-v9-blue.svg)](#rocket-lastpageradapter)
 [![production ready](https://img.shields.io/badge/production-ready-brightgreen.svg)](#rocket-lastpageradapter)
+[![size](https://img.shields.io/badge/Size-23_KB-e91e63.svg)](#rocket-lastpageradapter)
 
 
 <img alt="LastPagerAdapter Hero Banner" src="ART/lastpageradapter-hero.png"></img>
@@ -181,7 +182,7 @@ limitations under the License.
 ```
 
 *At this point I hope you're not emoji nauseated. If you are, just hit that*
-[![GitHub Stars](ART/badges/github-stars.svg)](#)
+[![GitHub Stars](https://img.shields.io/github/stars/bevacqua/awesome-badges.svg?style=social&label=Star)](#)
  *Star button to stop me from using emojis.
 <br/>
 Support this project please* :grin:
