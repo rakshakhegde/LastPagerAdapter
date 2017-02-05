@@ -13,7 +13,7 @@
 <h2 align="center">:rocket: LastPagerAdapter</h2>
 
 
-**:hushed: Unbelievably simple API for long, :scroll: boilerplate ViewPager Adapters!**
+Don't write a ViewPager Adapter! Hook up your ViewPager to your data model using the new Android Data Binding Framework.
 
 Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
 
