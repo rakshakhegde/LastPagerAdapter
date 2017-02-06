@@ -45,7 +45,7 @@ Or try the limited 1 min [live app demo](https://appetize.io/app/uqjemedvam0h8k8
 - [Build](#classical_building-build)
 - [How to use](#thinking-how-to-use)
 - [Acknowledgements](#sparkles-acknowledgements)
-- [Author](#man_cartwheeling-cartwheeling-guy-who-made-this)
+- [Author](#man_cartwheeling-author)
 - [Contribute](#fork_and_knife-contribute)
 - [License](#memo-license)
 
@@ -147,7 +147,7 @@ Core Logo created using Roman Nurik's awesome [Android Asset Studio](https://rom
 
 
 
-<h2 align="center">:man_cartwheeling: Cartwheeling guy who made this</h2>
+<h2 align="center">:man_cartwheeling: Author</h2>
 **Rakshak Hegde** tweets rampantly (I wish :sweat_smile:) at [**@rakshakhegde**](https://twitter.com/rakshakhegde)
 
 [Email](mailto:rakshakhegde@gmail.com) | [Twitter](https://twitter.com/rakshakhegde) | [Facebook](https://www.facebook.com/rakshakhegde) | [Google+](https://plus.google.com/+RakshakHegde) | [Linked.in](https://in.linkedin.com/in/rakshakrhegde)
