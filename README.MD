@@ -8,8 +8,6 @@
 <img alt="LastPagerAdapter Hero Banner" src="https://cdn.rawgit.com/rakshakhegde/LastPagerAdapter/master/ART/lastpageradapter-banner.svg" width="600"></img>
 </p>
 
-<h2 align="center">:rocket: LastPagerAdapter</h2>
-
 
 Don't write a ViewPager Adapter! Hook up your ViewPager to your data model using the new Android Data Binding Framework.
 
