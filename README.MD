@@ -1,13 +1,10 @@
 [![Release](https://jitpack.io/v/rakshakhegde/LastPagerAdapter.svg)](https://jitpack.io/#rakshakhegde/LastPagerAdapter)
-[![Join the chat at https://gitter.im/LastPagerAdapter/Lobby](https://badges.gitter.im/LastPagerAdapter/Lobby.svg)](https://gitter.im/LastPagerAdapter/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![dependencies](https://img.shields.io/badge/dependencies-up--to--date-brightgreen.svg)](#rocket-lastpageradapter)
 [![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=5895d7a1e0b5980100192b42&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/5895d7a1e0b5980100192b42/build/latest?branch=master)
-[![android min api](https://img.shields.io/badge/android_min_api-v9-blue.svg)](#rocket-lastpageradapter)
-[![production ready](https://img.shields.io/badge/production-ready-brightgreen.svg)](#rocket-lastpageradapter)
-[![size](https://img.shields.io/badge/Size-39_KB-e91e63.svg)](#rocket-lastpageradapter)
+[![android min api](https://img.shields.io/badge/API-9+-blue.svg)](#rocket-lastpageradapter)
+[![size](https://img.shields.io/badge/Size-39_KB-e91e63.svg)](https://github.com/rakshakhegde/Komparison)
 
 
-<img alt="LastPagerAdapter Hero Banner" src="ART/lastpageradapter-hero.png"></img>
+<img alt="LastPagerAdapter Hero Banner" src="ART/lastpageradapter-banner.svg" width="800"></img>
 
 
 <h2 align="center">:rocket: LastPagerAdapter</h2>
