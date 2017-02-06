@@ -4,7 +4,7 @@
 [![size](https://img.shields.io/badge/Size-39_KB-e91e63.svg)](https://github.com/rakshakhegde/Komparison)
 
 
-<img alt="LastPagerAdapter Hero Banner" src="https://github.com/rakshakhegde/LastPagerAdapter/raw/master/ART/lastpageradapter-banner.svg" width="800"></img>
+<img alt="LastPagerAdapter Hero Banner" src="https://cdn.rawgit.com/rakshakhegde/LastPagerAdapter/master/ART/lastpageradapter-banner.svg" width="800"></img>
 
 
 <h2 align="center">:rocket: LastPagerAdapter</h2>
