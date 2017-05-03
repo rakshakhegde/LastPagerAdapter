@@ -16,6 +16,12 @@ Don't write a ViewPager Adapter! Hook up your ViewPager to your data model using
 Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
 
 
+### Show some :heart:
+
+[![GitHub stars](https://img.shields.io/github/stars/rakshakhegde/LastPagerAdapter.svg?style=social&label=Star)](https://github.com/rakshakhegde/LastPagerAdapter) [![GitHub forks](https://img.shields.io/github/forks/rakshakhegde/LastPagerAdapter.svg?style=social&label=Fork)](https://github.com/rakshakhegde/LastPagerAdapter/fork) [![GitHub watchers](https://img.shields.io/github/watchers/rakshakhegde/LastPagerAdapter.svg?style=social&label=Watch)](https://github.com/rakshakhegde/LastPagerAdapter) [![GitHub followers](https://img.shields.io/github/followers/rakshakhegde.svg?style=social&label=Follow)](https://github.com/rakshakhegde)  
+[![Twitter Follow](https://img.shields.io/twitter/follow/rakshakhegde.svg?style=social)](https://twitter.com/rakshakhegde)
+
+
 <h2 align="center">:kiss: Sweet and short library</h2>
 
 Use the language of your choice.
@@ -145,6 +151,12 @@ And that is how easy it is. Download the [demo apk](https://github.com/rakshakhe
 - Callbacks for creation or destruction of Views is not implemented (I didn't implement them because personally my use case didn't require it). Feel free to Pull Request this one.
 
 
+<h2 align="center">:sparkles: My Recommended Repos</h2>
+
+- [DaggerAndroidInjector](https://github.com/rakshakhegde/DaggerAndroidInjector)
+- [Diffre](https://github.com/rakshakhegde/Diffre)
+
+
 <h2 align="center">:sparkles: Acknowledgements</h2>
 
 Library and API Structure inspired from [LastAdapter](https://github.com/nitrico/LastAdapter)
@@ -173,7 +185,7 @@ Please file bugs, suggest improvements and feel free to contribute
 <h2 align="center">:memo: License</h2>
 
 ```txt
-Copyright 2016 Rakshak Hegde
+Copyright 2016-2017 Rakshak Hegde
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -187,9 +199,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-
-*At this point I hope you're not emoji nauseated. If you are, just hit that*
-[![GitHub Stars](https://img.shields.io/github/stars/bevacqua/awesome-badges.svg?style=social&label=Star)](#)
- *Star button to stop me from using emojis.
-<br/>
-Support this project please* :grin:
