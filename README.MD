@@ -43,6 +43,7 @@ Download the [demo apk](https://github.com/rakshakhegde/LastPagerAdapter/raw/mas
 Or try the limited 1 min [live app demo](https://appetize.io/app/uqjemedvam0h8k8t4yt1vprtyr) at Appetize.
 
 <h2 align="center">:scroll: Contents</h2>
+
 - [Features](#crown-features)
 - [Build](#classical_building-build)
 - [How to use](#thinking-how-to-use)
