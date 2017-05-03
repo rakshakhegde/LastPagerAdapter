@@ -2,6 +2,8 @@
 [![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=5895d7a1e0b5980100192b42&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/5895d7a1e0b5980100192b42/build/latest?branch=master)
 [![android min api](https://img.shields.io/badge/API-9+-blue.svg)](#rocket-lastpageradapter)
 [![size](https://img.shields.io/badge/Size-39_KB-e91e63.svg)](https://github.com/rakshakhegde/Komparison)
+[![Android Arsenal](https://img.shields.io/badge/Android_Arsenal-LastPagerAdapter-green.svg?style=flat)](https://android-arsenal.com/details/1/5214)
+[![MaterialUp](https://img.shields.io/badge/MaterialUp-LastPagerAdapter-green.svg?style=flat)](https://material.uplabs.com/posts/lastpageradapter)
 
 
 <p align="center">
@@ -44,6 +46,7 @@ Or try the limited 1 min [live app demo](https://appetize.io/app/uqjemedvam0h8k8
 - [Features](#crown-features)
 - [Build](#classical_building-build)
 - [How to use](#thinking-how-to-use)
+- [Known Issues](#)
 - [Acknowledgements](#sparkles-acknowledgements)
 - [Author](#man_cartwheeling-author)
 - [Contribute](#fork_and_knife-contribute)
@@ -53,8 +56,8 @@ Or try the limited 1 min [live app demo](https://appetize.io/app/uqjemedvam0h8k8
 
 <h2 align="center">:crown: Features</h2>
 
-         |  LastPagerAdapter
---------------------------|------------------------------------------------------------
+|         |  LastPagerAdapter   |
+|--------------------------|------------------------------------------------------------|
 :monorail: | Within a few lines easily hook up your data models with your ViewPager
 :link: | Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
 :sparkles: | Written in [**Kotlin**](https://kotlinlang.org/). A concise language you should definitely check out, if you haven't already.
@@ -133,6 +136,12 @@ Except the layoutId, everything else is optional
 
 And that is how easy it is. Download the [demo apk](https://github.com/rakshakhegde/LastPagerAdapter/raw/master/demo.apk) to play around with the LastPagerAdapter demo app.
 
+
+<h2 align="center">:-1: Known Issues</h2>
+
+- Customizability in terms of having independent names for models in XML is not present
+- API seems a bit verbose for large number of similar views. Could implement a version which accepts arrays. Anyways, a loop could be used there.
+- Callbacks for creation or destruction of Views is not implemented (I didn't implement them because personally my use case didn't require it). Feel free to Pull Request this one.
 
 
 <h2 align="center">:sparkles: Acknowledgements</h2>

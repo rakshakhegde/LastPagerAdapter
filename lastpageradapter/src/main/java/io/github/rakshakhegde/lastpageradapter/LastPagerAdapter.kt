@@ -17,6 +17,8 @@ class LastPagerAdapter(private val modelId: Int) : PagerAdapter() {
 
 	private val pagerItems = ObservableArrayList<PagerItem>()
 	private var layoutInflater: LayoutInflater? = null
+	private val INFLATER_UNINITIALIZED_MSG = "LayoutInflater is not initialized!" +
+			" Please pass ViewPager instance using into()."
 
 	init {
 		pagerItems.onListChanged { notifyDataSetChanged() }
@@ -44,33 +46,24 @@ class LastPagerAdapter(private val modelId: Int) : PagerAdapter() {
 	override fun instantiateItem(container: ViewGroup, position: Int): Any =
 			pagerItems[position].apply {
 
-				bindingRef?.get()?.apply {
-					container.addView(root)
-				} ?: apply {
+				if (binding != null) {
+					container.addView(binding?.root)
+				} else {
 
-					checkLayoutInflaterIsNotNull()
+					val view = checkNotNull(layoutInflater) { INFLATER_UNINITIALIZED_MSG }
+							.inflate(layoutId, container, false)
 
-					val view = layoutInflater?.inflate(layoutId, container, false)
-
-					val binding = DataBindingUtil.bind<ViewDataBinding>(view).apply {
+					binding = DataBindingUtil.bind<ViewDataBinding>(view).apply {
 						setVariable(modelId, model)
 						executePendingBindings()
 					}
-					bindingRef(binding)
 
 					container.addView(view)
 				}
 			}
 
-	private fun checkLayoutInflaterIsNotNull() {
-		if (layoutInflater == null)
-			throw IllegalStateException(
-					"LayoutInflater is not initialized! Please pass ViewPager instance using into()."
-			)
-	}
-
 	override fun isViewFromObject(view: View, obj: Any): Boolean =
-			view == ((obj as PagerItem).bindingRef?.get()?.root as View)
+			view == ((obj as PagerItem).binding?.root as View)
 
 	override fun getItemPosition(obj: Any?): Int {
 		val position = pagerItems.indexOf(obj as PagerItem)
@@ -78,9 +71,10 @@ class LastPagerAdapter(private val modelId: Int) : PagerAdapter() {
 	}
 
 	override fun destroyItem(container: ViewGroup, position: Int, obj: Any) {
-		val pagerItem = obj as PagerItem
-		val view = pagerItem.bindingRef?.get()?.root
-		container.removeView(view)
+		(obj as PagerItem).apply {
+			//			saveHierarchyState()
+			container.removeView(binding?.root)
+		}
 	}
 
 	override fun getPageTitle(position: Int) = pagerItems[position].title
