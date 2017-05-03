@@ -1,5 +1,5 @@
-[![Release](https://jitpack.io/v/rakshakhegde/LastPagerAdapter.svg)](https://jitpack.io/#rakshakhegde/LastPagerAdapter)
 [![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=5895d7a1e0b5980100192b42&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/5895d7a1e0b5980100192b42/build/latest?branch=master)
+[![Release](https://jitpack.io/v/rakshakhegde/LastPagerAdapter.svg)](https://jitpack.io/#rakshakhegde/LastPagerAdapter)
 [![android min api](https://img.shields.io/badge/API-9+-blue.svg)](#rocket-lastpageradapter)
 [![size](https://img.shields.io/badge/Size-39_KB-e91e63.svg)](https://github.com/rakshakhegde/Komparison)
 [![Android Arsenal](https://img.shields.io/badge/Android_Arsenal-LastPagerAdapter-green.svg?style=flat)](https://android-arsenal.com/details/1/5214)
@@ -11,10 +11,7 @@
 </p>
 
 
-Don't write a ViewPager Adapter! Hook up your ViewPager to your data model using the new Android Data Binding Framework.
-
-Based on [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html)
-
+Don't write a ViewPager Adapter! Hook up your ViewPager to your data model using [**Android Data Binding**](https://developer.android.com/topic/libraries/data-binding/index.html) Framework.
 
 ### Show some :heart:
 
@@ -54,6 +51,7 @@ Or try the limited 1 min [live app demo](https://appetize.io/app/uqjemedvam0h8k8
 - [Build](#classical_building-build)
 - [How to use](#thinking-how-to-use)
 - [Known Issues](#)
+- [My Recommended Repos](#sparkles-my-recommended-repos)
 - [Acknowledgements](#sparkles-acknowledgements)
 - [Author](#man_cartwheeling-author)
 - [Contribute](#fork_and_knife-contribute)
