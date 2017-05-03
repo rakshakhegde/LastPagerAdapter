@@ -159,7 +159,7 @@ Core Logo created using Roman Nurik's awesome [Android Asset Studio](https://rom
 
 <h2 align="center">:man_cartwheeling: Author</h2>
 
-**Rakshak Hegde** tweets rampantly (I wish :sweat_smile:) at [**@rakshakhegde**](https://twitter.com/rakshakhegde)
+Catch me at [**@rakshakhegde**](https://twitter.com/rakshakhegde)
 
 [Email](mailto:rakshakhegde@gmail.com) | [Twitter](https://twitter.com/rakshakhegde) | [Facebook](https://www.facebook.com/rakshakhegde) | [Google+](https://plus.google.com/+RakshakHegde) | [Linked.in](https://in.linkedin.com/in/rakshakrhegde)
 

@@ -46,9 +46,9 @@ class LastPagerAdapter(private val modelId: Int) : PagerAdapter() {
 	override fun instantiateItem(container: ViewGroup, position: Int): Any =
 			pagerItems[position].apply {
 
-				if (binding != null) {
-					container.addView(binding?.root)
-				} else {
+				binding?.let {
+					container.addView(it.root)
+				} ?: run {
 
 					val view = checkNotNull(layoutInflater) { INFLATER_UNINITIALIZED_MSG }
 							.inflate(layoutId, container, false)
