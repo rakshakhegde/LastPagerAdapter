@@ -29,16 +29,15 @@ android {
 			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 		}
 		release {
-			minifyEnabled false
+			minifyEnabled true
 			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 		}
 	}
 	sourceSets {
 		main.java.srcDirs += 'src/main/kotlin'
 	}
-	dataBinding {
-		enabled = true
-	}
+
+	dataBinding.enabled = true
 }
 
 dependencies {
