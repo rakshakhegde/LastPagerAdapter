@@ -84,7 +84,7 @@ android {
 }
 
 dependencies {
-    compile 'com.github.rakshakhegde:LastPagerAdapter:1.1.0'
+    compile 'com.github.rakshakhegde:LastPagerAdapter:1.2'
     // kapt 'com.android.databinding:compiler:GRADLE_PLUGIN_VERSION' // this line only for Kotlin projects
 }
 ```
