@@ -45,19 +45,6 @@ Download the [demo apk](https://github.com/rakshakhegde/LastPagerAdapter/raw/mas
 
 Or try the limited 1 min [live app demo](https://appetize.io/app/uqjemedvam0h8k8t4yt1vprtyr) at Appetize.
 
-<h2 align="center">:scroll: Contents</h2>
-
-- [Features](#crown-features)
-- [Build](#classical_building-build)
-- [How to use](#thinking-how-to-use)
-- [Known Issues](#)
-- [My Recommended Repos](#sparkles-my-recommended-repos)
-- [Acknowledgements](#sparkles-acknowledgements)
-- [Author](#man_cartwheeling-author)
-- [Contribute](#fork_and_knife-contribute)
-- [License](#memo-license)
-
-<hr/>
 
 <h2 align="center">:crown: Features</h2>
 
@@ -178,6 +165,16 @@ Catch me at [**@rakshakhegde**](https://twitter.com/rakshakhegde)
 Please file bugs, suggest improvements and feel free to contribute
 
 > :kiss: **K**eep **I**t **S**imple **S**illy
+
+
+<h2 align="center">Changelog</h2>
+
+- [v1.2](https://github.com/rakshakhegde/LastPagerAdapter/releases/tag/1.2)
+    - Documentation Update
+    - Upgraded internal working
+    - Updated library versions
+    - Fix AndroidManifest
+
 
 
 <h2 align="center">:memo: License</h2>
