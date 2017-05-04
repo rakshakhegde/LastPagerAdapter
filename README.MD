@@ -180,7 +180,7 @@ Please file bugs, suggest improvements and feel free to contribute
 <h2 align="center">:memo: License</h2>
 
 ```txt
-Copyright 2016-2017 Rakshak Hegde
+Copyright 2017 Rakshak Hegde
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
